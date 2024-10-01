@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="aset/style.css" />
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="home.html">Home</a> |
+            <a href="#">Download CV</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="about.html">About Me</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile">
+            <img src="aset/IMG_20220829_061003.jpg" alt="Foto Profil">
+            <h1>Nama Lengkap</h1>
+            <h2>(Pelajar)</h2>
+        </section>
+
+        <section class="overview">
+            <h2>Overview</h2>
+            <p>
+                Halo, saya pemilik situs ini saat ini sedang belajar HTML di SMKN 7 Baleendah.
+            </p>
+        </section>
+
+        <section class="skills-experience">
+            <article class="skills">
+                <h2>Skill</h2>
+                <ul>
+                    <li>HTML (Mahir)</li>
+                    <li>CSS (Mahir)</li>
+                    <li>JavaScript (Mahir)</li>
+                </ul>
+            </article>
+            <article class="experience">
+                <h2>Pengalaman</h2>
+                <ul>
+                    <li>Pernah bekerja di rumah</li>
+                    <li>Pernah membuat website online github</li>
+                    <li>Kontributor open source</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>©<span id="year"></span> Fuad. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
