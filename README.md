@@ -1,2 +1,4 @@
 # My portfolio
-<a href="index.html">About Me</a>
+## Hi, I'm [Dirga]!
+
+Welcome to my portfolio! I'm a [high school student].
