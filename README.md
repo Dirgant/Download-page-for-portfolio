@@ -1,4 +1,4 @@
 # My portfolio
-## Hi, I'm [Dirga]!
+## Hi, I'm Dirga!
 
-Welcome to my portfolio! I'm a [high school student].
+Welcome to my portfolio! I'm a high school student.
